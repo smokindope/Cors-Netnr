@@ -308,7 +308,7 @@ function getHandler(options, proxy) {
             res.writeHead(200, cors_headers);
             res.end(JSON.stringify({
                 usage: "Host/{URL}",
-                source: "https://github.com/netnr/proxy"
+                source: "https://github.com/smokindope/Cors-Netnr/"
             }));
             return;
         }
